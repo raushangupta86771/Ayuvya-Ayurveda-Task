@@ -1,0 +1,103 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.int1{
+  font-size: 15px;
+  position: relative;
+  left: -426px;
+}
+.rating {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.dislike:hover,
+.like:hover {
+  color: #2EBDD1;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.active {
+  color: #2EBDD1;
+}
+.xx{
+  font-size: 15px;
+  position: relative;
+  right: -67px;
+  top: -10px;
+}
+.xx1{
+  font-size: 15px;
+  position: relative;
+  right: -7px;
+  top: -10px;
+}
+
+.dwd1{
+  position: relative;
+  right: 2px;
+  top: -10px;
+}
+.dwd{
+  position: relative;
+  right: 451px;
+}
+.dwd2{
+  position: relative;
+  right: 390px;
+}
+
+.gg{
+  position: relative;
+  right: 12px;
+}
+
+hr.solid {
+  width: 240px;
+  position: relative;
+  left: 2.5rem;
+  border-top: 3px solid #bbb;
+}
+
+.al{
+  position: relative;
+  left: -500px;
+}
+
+.ii{
+  position: relative;
+  left: -417px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .video-card img {
+    height: 150px;
+  }
+
+  .video-card h2 {
+    font-size: 1rem;
+  }
+}
